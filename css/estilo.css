@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;
+  }
+  
+  main {
+    display: flex;
+  }
+  
+  section {
+    padding: 35px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  img {
+    padding: 20px;
+    width: 40%;
+  }
+  
+  .laranja {
+    background-color: #e38826;
+  }
+  
+  .azul {
+    background-color: #006970;
+  }
+  
+  .verde {
+    background-color: #004241;
+  }
+  
+  .titulo {
+    color: hsl(0, 0%, 95%);
+    font-size: 35px;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 700;
+    padding: 20px;
+  }
+  
+  .txt {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    padding: 20px;
+  }
+  
+  button {
+    cursor:pointer;
+    width: 70%;
+    margin-top: auto;
+    padding: 10px 15px;
+    border-radius: 30px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: bolder;
+    border-color: transparent;
+    letter-spacing: 2px;
+    transition: background-color 0.8s; /* Ajuste na transição apenas para background-color */
+  }
+
+.btn-laranja {
+    color: #e38826;
+    
+    
+  }
+.btn-laranja:focus {
+    background-color: transparent;
+    color:white;
+    border-color: white;
+    
+}
+
+.btn-azul {
+    color: #006970;
+}
+
+.btn-azul:focus {
+    background-color: transparent;
+    color:white;
+    border-color: white;
+    
+}
+  
+.btn-verde {
+    color: #004241;
+}
+.btn-verde:focus {
+    background-color: transparent;
+    color:white;
+    border-color: white;
+ 
+}
