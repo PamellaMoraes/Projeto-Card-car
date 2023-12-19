@@ -9,6 +9,6 @@ Front-end:
 Html5
 Css3
 
-Agradeço por conferir este projeto! Se tiver alguma dúvida ou feedback, sinta-se à vontade para entrar em contato pelo e-mail pamellamoraes.f@gmail.com
+ Agradeço por conferir este projeto! Se tiver alguma dúvida ou feedback, sinta-se à vontade para entrar em contato pelo e-mail pamellamoraes.f@gmail.com
 
 
