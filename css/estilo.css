@@ -6,19 +6,25 @@
   
   body, html {
     height: 100%;
-    overflow: hidden;
+    background-color: rgb(219, 219, 219);
+    
   }
   
   main {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
   }
   
   section {
+    width: 350px;
+    height: 600px;
     padding: 25px;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
   }
   
   img {
@@ -28,6 +34,7 @@
   
   .laranja {
     background-color: #e38826;
+    border-radius: 10px 0px 0px 10px;
   }
   
   .azul {
@@ -36,6 +43,7 @@
   
   .verde {
     background-color: #004241;
+    border-radius: 0px 10px 10px 0px;
   }
   
   .titulo {
@@ -68,9 +76,9 @@
 
 .btn-laranja {
     color: #e38826;
-    
-    
+
   }
+
 .btn-laranja:focus {
     background-color: transparent;
     color:white;
@@ -86,7 +94,6 @@
     background-color: transparent;
     color:white;
     border-color: white;
-    
 }
   
 .btn-verde {
@@ -97,4 +104,10 @@
     color:white;
     border-color: white;
  
+}
+footer{
+  text-align: center;
+  font-size: 12px;
+  font-style: italic;
+  color:black;
 }
